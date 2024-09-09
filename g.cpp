@@ -3,6 +3,7 @@
 #include <string>
 
 using namespace std;
+
 void bubbleSort(vector<int>& arr) {
     int n = arr.size();
     for (int i = 0; i < n - 1; i++) {
@@ -44,6 +45,8 @@ int gr = gra + b + a;
 int g = gr * a;
 std::cout <<"\nЧисло \n"<< g << std::endl;
 cout << "Prosto";
+
+
 
 
 }
